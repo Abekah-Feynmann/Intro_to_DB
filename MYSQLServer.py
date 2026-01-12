@@ -8,7 +8,7 @@ try:
     )
 
     if mydb.is_connected:
-        print("Connected to MYSQL server")
+        print("Connected to MYSQL server!")
 
     mycursor = mydb.cursor()
 
